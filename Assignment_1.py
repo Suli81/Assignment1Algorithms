@@ -2,24 +2,33 @@ import time
 
 def main(file_path):
     product_data = {}
-    try:
-        with open(file_path, 'r') as file:
-            for line in file:
-                parts = [p.strip() for p in line.strip().split(',')]
-                product = {"ID": int(parts[0]), "Name": parts[1], "Price": float(parts[2]), "Category": parts[3]}
-                product_data[product["ID"]] = product
-    except FileNotFoundError:
-        print(f"Data file '{file_path}' not found!")
+    file_found = False
+    file = open(file_path, 'r')
+    for line in file:
+        parts = [p.strip() for p in line.strip().split(',')]
+        if len(parts) >= 4:
+            product = {"ID": int(parts[0]), "Name": parts[1], "Price": float(parts[2]), "Category": parts[3]}
+            product_data[product["ID"]] = product
+            file_found = True
+        else:
+            print("Invalid product data found!")
+    file.close()
+    if not file_found:
+        print("Data file not found!")
     return product_data
 
 def write_products(products, file_path):
+    file = None
     try:
-        with open(file_path, 'w') as file:
-            for product_id, product in products.items():
-                file.write(f"Product: {product['Name']} - ID: {product['ID']} - Price: ${product['Price']:.2f} - Category: {product['Category']}\n")
+        file = open(file_path, 'w')
+        for product_id, product in products.items():
+            file.write(f"Product: {product['Name']} - ID: {product['ID']} - Price: ${product['Price']:.2f} - Category: {product['Category']}\n")
         print(f"Product data stored successfully in '{file_path}'.")
     except IOError:
         print(f"Error: Unable to write to file '{file_path}'.")
+    finally:
+        if file:
+            file.close()
 
 def insert(products, new_product):
     products[new_product['ID']] = new_product
@@ -27,15 +36,21 @@ def insert(products, new_product):
 
 def update(products, product_id, updated_info):
     if product_id in products:
-        products[product_id].update(updated_info)
-        print(f"Product with ID {product_id} has been updated successfully!")
+        try:
+            products[product_id].update(updated_info)
+            print(f"Product with ID {product_id} has been updated successfully!")
+        except Exception as e:
+            print(f"Error updating product with ID {product_id}: {e}")
     else:
         print("Product with ID not found!")
 
 def delete(products, product_id):
     if product_id in products:
-        del products[product_id]
-        print(f"Product with ID {product_id} deleted successfully!")
+        try:
+            del products[product_id]
+            print(f"Product with ID {product_id} deleted successfully!")
+        except Exception as e:
+            print(f"Error deleting product with ID {product_id}: {e}")
     else:
         print("Product with ID not found!")
 

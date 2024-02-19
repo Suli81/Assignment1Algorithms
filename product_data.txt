@@ -48,5 +48,3 @@ Product: Cutting Board OYHCV - ID: 39148 - Price: $220.15 - Category: Home & Kit
 Product: Mystery MGSPG - ID: 25425 - Price: $783.17 - Category: Books
 Product: Camera XROCD - ID: 69525 - Price: $76.05 - Category: Electronics
 Product: Knife Set ASRHX - ID: 44574 - Price: $64.62 - Category: Home & Kitchen
-Product: Sulaiman - ID: 1024 - Price: $1055.00 - Category: Clothing
-Product: Sulaiman - ID: 1025 - Price: $1052.00 - Category: Clothing
