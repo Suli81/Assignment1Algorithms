@@ -1,3 +1,7 @@
+#Sulaiman Nezami
+#100869554
+#Assignment 1 Algorithms
+
 import time
 
 def main(file_path):
