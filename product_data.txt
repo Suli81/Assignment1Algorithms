@@ -1,52 +1,52 @@
-57353, Camera SBBHC, 546.88, Electronics
-40374, Smartphone ILGCU, 947.54, Electronics
-34863, Biography XPESK, 287.31, Books
-18086, Shirt ZQLTI, 439.07, Clothing
-16041, Jacket OTBKQ, 986.73, Clothing
-43566, Mystery COKPK, 836.57, Books
-69260, Toaster FODKJ, 867.6, Home & Kitchen
-30895, Knife Set KGFUF, 385.77, Home & Kitchen
-19897, Blender DPKLR, 488.62, Home & Kitchen
-87296, Skirt IRTZX, 261.08, Clothing
-68215, Laptop QLBQC, 404.21, Electronics
-68097, Camera SGSRZ, 36.39, Electronics
-26556, Novel METLI, 376.45, Books
-30483, Knife Set WRSZZ, 55.97, Home & Kitchen
-62422, Camera VFQWS, 382.69, Electronics
-22806, Smartwatch VVFNT, 203.55, Electronics
-24976, Pants YZMAK, 449.56, Clothing
-30631, Headphones JFGYQ, 115.08, Electronics
-27939, Textbook TWQKZ, 108.5, Books
-41355, Headphones JOUXM, 211.57, Electronics
-94162, Laptop WRJOZ, 956.53, Electronics
-28710, Dress FRSMO, 879.09, Clothing
-90291, Pants TIPUD, 853.38, Clothing
-20368, Shirt FQFPK, 83.19, Clothing
-68960, Blender OMDPS, 720.06, Home & Kitchen
-40852, Novel IRROY, 603.68, Books
-97895, Blender KSJHL, 123.25, Home & Kitchen
-96314, Cutting Board LUICX, 628.29, Home & Kitchen
-85719, Laptop GZORF, 641.33, Electronics
-98625, Mystery BOPTP, 160.68, Books
-66208, Blender GCZSK, 161.83, Home & Kitchen
-86128, Biography ASTVE, 90.44, Books
-10889, Shirt DNRZU, 316.48, Clothing
-82777, Shirt OZWXU, 790.46, Clothing
-43451, Mixer CKVJQ, 379.5, Home & Kitchen
-12848, Toaster VZXUE, 867.97, Home & Kitchen
-17646, Biography BPWXR, 424.83, Books
-85197, Cutting Board IJVPP, 986.89, Home & Kitchen
-13471, Knife Set TPCMO, 831.9, Home & Kitchen
-66237, Headphones LTPLK, 995.13, Electronics
-30251, Pants HCBKI, 450.68, Clothing
-46944, Smartwatch QNALX, 647.08, Electronics
-93533, Novel WOHSN, 516.39, Books
-95090, Cutting Board RBACL, 568.63, Home & Kitchen
-98827, Shirt RSQGL, 231.54, Clothing
-64489, Novel EFPYC, 502.61, Books
-39148, Cutting Board OYHCV, 220.15, Home & Kitchen
-25425, Mystery MGSPG, 783.17, Books
-69525, Camera XROCD, 76.05, Electronics
-44574, Knife Set ASRHX, 64.62, Home & Kitchen
-1024, Sulaiman, 1051.0, Clothing
-1025, Sulaiman, 1052.0, Clothing
+Product: Camera SBBHC - ID: 57353 - Price: $546.88 - Category: Electronics
+Product: Smartphone ILGCU - ID: 40374 - Price: $947.54 - Category: Electronics
+Product: Biography XPESK - ID: 34863 - Price: $287.31 - Category: Books
+Product: Shirt ZQLTI - ID: 18086 - Price: $439.07 - Category: Clothing
+Product: Jacket OTBKQ - ID: 16041 - Price: $986.73 - Category: Clothing
+Product: Mystery COKPK - ID: 43566 - Price: $836.57 - Category: Books
+Product: Toaster FODKJ - ID: 69260 - Price: $867.60 - Category: Home & Kitchen
+Product: Knife Set KGFUF - ID: 30895 - Price: $385.77 - Category: Home & Kitchen
+Product: Blender DPKLR - ID: 19897 - Price: $488.62 - Category: Home & Kitchen
+Product: Skirt IRTZX - ID: 87296 - Price: $261.08 - Category: Clothing
+Product: Laptop QLBQC - ID: 68215 - Price: $404.21 - Category: Electronics
+Product: Camera SGSRZ - ID: 68097 - Price: $36.39 - Category: Electronics
+Product: Novel METLI - ID: 26556 - Price: $376.45 - Category: Books
+Product: Knife Set WRSZZ - ID: 30483 - Price: $55.97 - Category: Home & Kitchen
+Product: Camera VFQWS - ID: 62422 - Price: $382.69 - Category: Electronics
+Product: Smartwatch VVFNT - ID: 22806 - Price: $203.55 - Category: Electronics
+Product: Pants YZMAK - ID: 24976 - Price: $449.56 - Category: Clothing
+Product: Headphones JFGYQ - ID: 30631 - Price: $115.08 - Category: Electronics
+Product: Textbook TWQKZ - ID: 27939 - Price: $108.50 - Category: Books
+Product: Headphones JOUXM - ID: 41355 - Price: $211.57 - Category: Electronics
+Product: Laptop WRJOZ - ID: 94162 - Price: $956.53 - Category: Electronics
+Product: Dress FRSMO - ID: 28710 - Price: $879.09 - Category: Clothing
+Product: Pants TIPUD - ID: 90291 - Price: $853.38 - Category: Clothing
+Product: Shirt FQFPK - ID: 20368 - Price: $83.19 - Category: Clothing
+Product: Blender OMDPS - ID: 68960 - Price: $720.06 - Category: Home & Kitchen
+Product: Novel IRROY - ID: 40852 - Price: $603.68 - Category: Books
+Product: Blender KSJHL - ID: 97895 - Price: $123.25 - Category: Home & Kitchen
+Product: Cutting Board LUICX - ID: 96314 - Price: $628.29 - Category: Home & Kitchen
+Product: Laptop GZORF - ID: 85719 - Price: $641.33 - Category: Electronics
+Product: Mystery BOPTP - ID: 98625 - Price: $160.68 - Category: Books
+Product: Blender GCZSK - ID: 66208 - Price: $161.83 - Category: Home & Kitchen
+Product: Biography ASTVE - ID: 86128 - Price: $90.44 - Category: Books
+Product: Shirt DNRZU - ID: 10889 - Price: $316.48 - Category: Clothing
+Product: Shirt OZWXU - ID: 82777 - Price: $790.46 - Category: Clothing
+Product: Mixer CKVJQ - ID: 43451 - Price: $379.50 - Category: Home & Kitchen
+Product: Toaster VZXUE - ID: 12848 - Price: $867.97 - Category: Home & Kitchen
+Product: Biography BPWXR - ID: 17646 - Price: $424.83 - Category: Books
+Product: Cutting Board IJVPP - ID: 85197 - Price: $986.89 - Category: Home & Kitchen
+Product: Knife Set TPCMO - ID: 13471 - Price: $831.90 - Category: Home & Kitchen
+Product: Headphones LTPLK - ID: 66237 - Price: $995.13 - Category: Electronics
+Product: Pants HCBKI - ID: 30251 - Price: $450.68 - Category: Clothing
+Product: Smartwatch QNALX - ID: 46944 - Price: $647.08 - Category: Electronics
+Product: Novel WOHSN - ID: 93533 - Price: $516.39 - Category: Books
+Product: Cutting Board RBACL - ID: 95090 - Price: $568.63 - Category: Home & Kitchen
+Product: Shirt RSQGL - ID: 98827 - Price: $231.54 - Category: Clothing
+Product: Novel EFPYC - ID: 64489 - Price: $502.61 - Category: Books
+Product: Cutting Board OYHCV - ID: 39148 - Price: $220.15 - Category: Home & Kitchen
+Product: Mystery MGSPG - ID: 25425 - Price: $783.17 - Category: Books
+Product: Camera XROCD - ID: 69525 - Price: $76.05 - Category: Electronics
+Product: Knife Set ASRHX - ID: 44574 - Price: $64.62 - Category: Home & Kitchen
+Product: Sulaiman - ID: 1024 - Price: $1055.00 - Category: Clothing
+Product: Sulaiman - ID: 1025 - Price: $1052.00 - Category: Clothing

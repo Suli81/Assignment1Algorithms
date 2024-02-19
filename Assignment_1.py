@@ -16,14 +16,14 @@ def write_products(products, file_path):
     try:
         with open(file_path, 'w') as file:
             for product_id, product in products.items():
-                line = f"{product['ID']}, {product['Name']}, {product['Price']}, {product['Category']}\n"
-                file.write(line)
+                file.write(f"Product: {product['Name']} - ID: {product['ID']} - Price: ${product['Price']:.2f} - Category: {product['Category']}\n")
         print(f"Product data stored successfully in '{file_path}'.")
     except IOError:
         print(f"Error: Unable to write to file '{file_path}'.")
 
 def insert(products, new_product):
     products[new_product['ID']] = new_product
+    print("New product added successfully!")
 
 def update(products, product_id, updated_info):
     if product_id in products:
@@ -100,14 +100,14 @@ while True:
         found_products = search(product_data, search_key, search_value)
         if found_products:
             for product in found_products:
-                print(f"ID: {product['ID']}, Name: {product['Name']}, Price: {product['Price']}, Category: {product['Category']}")
+                print(f"ID: {product['ID']} | Name: {product['Name']} | Price: {product['Price']} | Category: {product['Category']}")
         else:
             print("No products found.")
 
     elif choice == '5':
         sorted_data = bubble_sort_with_timing(product_data)
         for product in sorted_data:
-            print(f"ID: {product['ID']}, Name: {product['Name']}, Price: {product['Price']}, Category: {product['Category']}")
+            print(f"ID: {product['ID']} | Name: {product['Name']} | Price: {product['Price']} | Category: {product['Category']}")
 
     elif choice == '6':
         print("Measuring sorting time...")
